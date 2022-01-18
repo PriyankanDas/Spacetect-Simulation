@@ -1,0 +1,30 @@
+.planets {
+    height: 950px;
+    background-image: url("assets/images/universe.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px;
+}
+
+.btn {
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.btncontainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 100px;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+}
+
+*{
+    margin: 0;
+}
